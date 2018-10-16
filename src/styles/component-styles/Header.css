@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  &__title {
+    font-size: 3em;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  &__title-span {
+    color: blue;
+  }
+}

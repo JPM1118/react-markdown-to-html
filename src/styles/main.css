@@ -1,0 +1,5 @@
+@import "./global-styles/wrapper.css";
+@import "./component-styles/App.css";
+@import "./component-styles/Header.css";
+@import "./component-styles/Editor.css";
+@import "./component-styles/Previewer.css";
