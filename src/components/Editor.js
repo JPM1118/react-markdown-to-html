@@ -1,15 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Editor extends Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className="editor wrapper">
-        <div className="editor__header">Editor.</div>
-        <div className="editor__body" />
+const Editor = props => {
+  return (
+    <div className="box--top-margin box">
+      <div className="box__header">Editor.</div>
+      <div className="box__body">
+        <textarea
+          className="box__text-area"
+          placeholder={props.value}
+          onChange={props.onChange}
+          type="text"
+        />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default Editor;

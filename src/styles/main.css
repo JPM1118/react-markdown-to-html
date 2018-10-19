@@ -1,5 +1,6 @@
+@import "./global-styles/mixins.css";
 @import "./global-styles/wrapper.css";
+@import "./global-styles/flex-container";
+@import "./global-styles/flex-box.css";
 @import "./component-styles/App.css";
 @import "./component-styles/Header.css";
-@import "./component-styles/Editor.css";
-@import "./component-styles/Previewer.css";

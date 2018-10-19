@@ -5,9 +5,15 @@
   left: 0;
   top: 0;
   &__title {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     padding: 10px 0px;
+
+    @mixin atSmall {
+      font-size: 3em;
+      text-align: center;
+      padding: 10px 0px;
+    }
   }
   &__title-span {
     color: blue;
